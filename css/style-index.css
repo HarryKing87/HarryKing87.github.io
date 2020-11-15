@@ -262,8 +262,8 @@ p {
 
 body,html {
   margin: 0;
-  font: bold 14px/1.4 'Open Sans', arial, sans-serif;
-  background: #000;
+  font: bold 14px/1.4 'Open Sans', arial, sans-serif!important;
+  background: #000!important;
 }
 ul { 
   margin: auto auto 100px auto;  
@@ -282,10 +282,10 @@ li {
   /*padding:10px;*/ /*Testing on centering the main top list-nav*/
 }
 a {
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 0.15em;
+  color: #fff!important;
+  text-transform: uppercase!important;
+  text-decoration: none!important;
+  letter-spacing: 0.15em!important;
   
   display: inline-block;
   padding: 15px 20px;
@@ -328,31 +328,10 @@ a:hover:after {
 
 
 
-#footer p{
-  border-radius: 0%;
-  border: none;
-  font-weight: lighter;
-  font-size: 15px;
-  padding:0;
-  text-align: center;
-}
-#footer h5 {
-  color:white;
-  text-align: center;
-  margin: -20px 20px;
-  padding: 0;
-}
- #footer {
-  padding: 2px;
-  display: flex;
-  margin: 100px 100px ;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-	 
+
 	 
     
-}
+
 
 
 
@@ -404,37 +383,47 @@ a:hover:after {
 
 
 /* Style the Image Used to Trigger the Modal */
-#myImg {
-  border-radius: 5px;
+
+.container #myImg {
+  width:50%;
+  border-radius: 5px!important;
   cursor: pointer;
-  transition: 0.3s;
-  margin-left: 40px;
-  margin-right: 10px;
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out!important;
+  margin-left: 30%;
+  margin-right: 30%;
 }
-#myImg1 {
-  border-radius: 5px;
+.container #myImg1 {
+  width:50%;
+  border-radius: 5px!important;
   cursor: pointer;
-  transition: 0.3s;
-  margin-left: 40px;
-  margin-right: 10px;
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out!important;
+  margin-left: 30%;
+  margin-right: 30%;
 }
-#myImg2 {
-  border-radius: 5px;
+.container #myImg2 {
+  width:50%;
+  border-radius: 5px!important;
   cursor: pointer;
-  transition: 0.3s;
-  margin-left: 40px;
-  margin-right: 10px;
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out!important;
+  margin-left: 30%;
+  margin-right: 30%;
 }
-#myImg3 {
-  border-radius: 5px;
+.container #myImg3 {
+  width:50%;
+  border-radius: 5px!important;
   cursor: pointer;
-  transition: 0.3s;
-  margin-left: 40px;
-  margin-right: 10px;
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out!important;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 #myImg:hover, #myImg1:hover, #myImg2:hover, #myImg3:hover {
   transform: scale(1.1);
+  transition: 0.5s ease-in-out!important;
 }
 
 
@@ -520,8 +509,31 @@ a:hover:after {
 
 
 
+#main-introduction
+{
+  background-color: black!important;
+}
 
+#navbar-bootstrap
+{
+  background-color: transparent!important;
+}
+#navbarNav
+{
+  display: flexbox!important;
+  background-color: transparent!important;
+}
 
+#footer-bootstrap
+{
+  background-color: black!important;
+}
+
+#footer-bootstrap p
+{
+  background-color: black!important;
+  font-size:15px!important;
+}
 
 
 
@@ -558,5 +570,18 @@ a:hover:after {
 @media screen and (min-width: 1900px) {
   .modal {
     width: 1870px;
+  }
+}
+
+
+/* Big Screens*/
+@media screen and (min-width: 1366px) and (max-width: 768px)
+{
+  #myImg, #myImg1, #myImg2, #myImg3 {
+    width:50%;
+    display:inline-flex;
+    margin-right:30%;
+    margin-left: 30%;
+    padding: 5px;
   }
 }
