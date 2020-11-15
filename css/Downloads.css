@@ -1,0 +1,285 @@
+.column .row img {
+    width:40%;
+    float:left;
+    border: 1px solid white;
+    border-radius: 1px;
+    opacity: 0.5;
+    transition: linear 0.6s;
+    margin-left:20px;
+}
+
+.column .row img:hover {
+    opacity: 1;
+    transition: linear 0.6s;
+}
+
+.row-right  h1 {
+    color:white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:200px;
+}
+
+.row-image img {
+    width:40%;
+    float:right;
+    border: 1px solid white;
+    border-radius: 1px;
+    opacity: 0.5;
+    transition: linear 0.6s;
+    margin-top:100px;
+    margin-right:20px;
+}
+.row-image img:hover {
+    opacity: 1;
+    transition: linear 0.6s;
+}
+.row-left h1{
+    color:white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:200px;
+}   
+
+#download-button {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    display: table;
+    width: 15%;
+    text-align: center;
+}
+#download-button-grid {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    display: table;
+    width: 15%;
+    text-align: center;
+}
+
+.row-image-mobile img{
+    width:20%;
+    height: 20%;
+    float:left;
+    opacity: 0.5;
+    transition: linear 0.6s;
+    margin-top:20%;
+    margin-right:50px;
+    display:block;
+    margin-left:50px;
+}
+
+.row-image-mobile img:hover {
+    opacity: 1;
+    transition:linear 0.6s;
+}
+.row-right-mobile {
+    color:white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:400px;
+}
+.row-image-mobile-last img{
+    width:20%;
+    height: 20%;
+    float:right;
+    opacity: 0.5;
+    transition: linear 0.6s;
+    margin-top:20%;
+    margin-right:50px;
+    display:block;
+    margin-left:50px;
+    border:0.5 solid white;
+}
+.row-image-mobile-last img:hover {
+    opacity: 1;
+    transition: linear 0.6s;
+    border:0.5 solid white;
+}
+
+
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+    }
+    @media only screen 
+  and (min-device-width : 375px) 
+  and (max-device-width : 812px)
+  and (-webkit-device-pixel-ratio : 3) { 
+    .row .column .name-greeting {
+      font-size:40px;
+      margin-left: 20px;
+    }
+    .name-greeting {
+      font-size:40px;
+      margin-left: 20px;
+    }
+    .creator-index {
+      margin-top:300px;
+    }
+    
+  }
+  
+  .description-theme {
+      color:white;
+      text-align: center;
+      font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+    font-size:20px;
+    }
+  
+  
+  body,html {
+    margin: 0;
+    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+    background: rgb(0, 0, 0);
+  }
+  ul { 
+    margin: 70px auto 0; 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    width: 600px;
+    text-align: center;
+    margin-top:20px;
+    padding-top: 0;
+  }
+  
+  
+  li { 
+    display: table-cell; 
+    position: relative; 
+    padding: 15px 0;
+  }
+  a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  #a-message {
+    text-decoration: none;
+    text-transform: none;
+    font-size: 20px;
+    padding: 0;
+  }
+  
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  
+    
+  
+  /* Media Queries: Tablet Landscape */
+  
+  @media only screen and (min-width: 414px) 
+and (orientation: portrait) {
+  
+  ul {
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  display:inline-flex;
+  }
+}
+  
+  
+  
+  #footer p{
+    border-radius: 0%;
+    border: none;
+    font-weight: lighter;
+    font-size: 15px;
+    padding:0;
+    text-align: center;
+  }
+  #footer h5 {
+    color:white;
+    text-align: center;
+    margin: -20px 20px;
+    padding: 0;
+  }
+   #footer {
+    padding: 2px;
+    display: inline-flex;
+    margin: 100px 100px ;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 

@@ -1,0 +1,210 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+body { background-color: black;
+  font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+}
+
+.footer-social-links{
+    font-size: 20px;
+  text-align: center;
+  margin-top: 20%;
+}
+.footer-social-links a{
+    width: 50px;
+    height: 50px;
+    line-height: 25px !important;
+    position: relative;
+    margin: 0 5px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+.footer-social-links a i,
+.footer-social-links a span{
+    position: relative;
+    top: 2px;
+    left: 1px; 
+}
+.footer-social-links a:before{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid white;
+    
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    
+}
+.footer-social-links a:hover{
+    color: black;
+}
+.footer-social-links a:hover:before{
+    background: white;
+}
+p {
+  color:white;
+  text-align: center;
+  display:inline-flexbox;
+  padding:40px;
+  font-size: 17px;
+  font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+  margin-right:400px;
+  margin-left: 400px;
+  border: 0.5px solid white;
+  margin-top:50px;
+  margin-bottom: -100px;
+  border-radius: 10px;
+}
+.subheader {
+  text-align:center;
+  margin-top:10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+#contacting {
+  background-color: black;
+  color:white;
+  display:inline-block;
+  padding:10px;
+  font-family: staatliches,sans-serif;
+  border: 0.5px solid white;
+}
+#contacting:hover {
+cursor: default;
+}
+.navigation {
+  padding: 0; 
+  list-style: none; 
+  display: flex;
+  width: 600px;
+  text-align: center;
+  margin-top:20px;
+  padding-top: 0;
+  margin-left: 37%;
+}
+.navigation a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: block;
+  padding: 15px 20px;
+  position: relative;
+}
+.navigation #a-message {
+  text-decoration: none;
+  text-transform: none;
+  font-size: 20px;
+  padding: 0;
+}
+
+.navigation a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.navigation a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+ul { 
+  margin: 70px auto 0; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center;
+  margin-top:20px;
+  padding-top: 0;
+}
+
+
+li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 15px 0;
+}
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+#a-message {
+  text-decoration: none;
+  text-transform: none;
+  font-size: 20px;
+  padding: 0;
+}
+
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+
+@media only screen and (min-width: 414px) 
+and (orientation: portrait) {
+  
+  ul {
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  }
+
+  p {
+    margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  }
+  
+}
