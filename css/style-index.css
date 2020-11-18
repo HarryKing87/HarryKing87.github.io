@@ -384,46 +384,41 @@ a:hover:after {
 
 /* Style the Image Used to Trigger the Modal */
 
-.container #myImg {
+.container-fluid .row #myImg {
   width:50%;
-  border-radius: 5px!important;
+  border-radius: 5%!important;
   cursor: pointer;
-  transform: scale(1.1);
   transition: 0.5s ease-in-out!important;
-  margin-left: 30%;
-  margin-right: 30%;
+  
 }
-.container #myImg1 {
+.container-fluid .row #myImg1 {
   width:50%;
-  border-radius: 5px!important;
+  border-radius: 5%!important;
   cursor: pointer;
-  transform: scale(1.1);
   transition: 0.5s ease-in-out!important;
-  margin-left: 30%;
-  margin-right: 30%;
+  
 }
-.container #myImg2 {
+.container-fluid .row #myImg2 {
   width:50%;
-  border-radius: 5px!important;
+  border-radius: 5%!important;
   cursor: pointer;
-  transform: scale(1.1);
   transition: 0.5s ease-in-out!important;
-  margin-left: 30%;
-  margin-right: 30%;
+  
 }
-.container #myImg3 {
+.container-fluid .row #myImg3 {
   width:50%;
-  border-radius: 5px!important;
+  border-radius: 5%!important;
   cursor: pointer;
-  transform: scale(1.1);
   transition: 0.5s ease-in-out!important;
-  margin-left: 30%;
-  margin-right: 30%;
+  
 }
 
-#myImg:hover, #myImg1:hover, #myImg2:hover, #myImg3:hover {
-  transform: scale(1.1);
+.container-fluid .row #myImg:hover, .container-fluid .row #myImg1:hover, .container-fluid .row #myImg2:hover, .container-fluid .row #myImg3:hover {
+  transform: scale(1.1)!important;
   transition: 0.5s ease-in-out!important;
+  border: transparent;
+  border-radius: 10%!important;
+  cursor: pointer;
 }
 
 
