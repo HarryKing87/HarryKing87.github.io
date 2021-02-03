@@ -297,7 +297,7 @@ header {
 
 .my-projects {
           background-color: var(--clr-dark);
-          background-image: url(/Users/charalamposkynegopoulos/Desktop/Portfolio/img/third.jpg);
+          background-image: url(img/third.jpg);
           background-size: cover;
           background-blend-mode: multiply;
           color:var(--clr-light);
